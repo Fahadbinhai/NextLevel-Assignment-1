@@ -1,5 +1,5 @@
 
-// problem 1
+
 
 const formatValue = (a: number | string | boolean) => {
 
@@ -15,7 +15,7 @@ const formatValue = (a: number | string | boolean) => {
 
 }
 
-// problem 2
+
 
 
 const getLength = (value: string | any[]):number =>{
@@ -28,7 +28,7 @@ const getLength = (value: string | any[]):number =>{
     }
 }
 
-// problem 3
+
 
 
 class Person {
@@ -51,7 +51,7 @@ class Person {
 }
 
 
-// problem 4
+
 
 
 
@@ -63,7 +63,7 @@ const filterByRating = (items:{title: string , rating: number}[]): {title: strin
 }
 
 
-// problem 5
+
 
 const filterActiveUsers = (users: { id: number, name: string, email: string, isActive: boolean }[]): { id: number, name: string, email: string, isActive: boolean }[] => {
 
@@ -74,7 +74,7 @@ const filterActiveUsers = (users: { id: number, name: string, email: string, isA
 }
 
 
-// problem 6
+
 
 interface Book {
   title: string;
@@ -91,7 +91,6 @@ const printBookDetails = (book: Book) => {
 };
 
 
-// problem 7
 
 
 const getUniqueValues = (
@@ -130,7 +129,7 @@ const getUniqueValues = (
   return result;
 };
 
-// problem 8
+
 
 type Product = {
   name: string;
